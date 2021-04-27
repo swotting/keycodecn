@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html, body {
+    font-family: "yellow FFFF00", Arial;
+    text-align: center;
+    background-color: rgb(255, 140, 249);
+}
+
+h2 {
+    font-size: 150px;
+}
+
+#welcome {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+#generator {
+    margin-top: 70px;
+}
+
+#wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    justify-content: center;
+    /* align-items: flex-end; */
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.box {
+    border: solid 4px rgb(46, 45, 46);
+    background: rgb(255, 0, 234);
+    color: rgb(0, 0, 0);
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+
+.show {
+    display:none;
+}
